@@ -12,7 +12,7 @@ The emulator is built with the maven command:
 ```
 mvn clean compile package
 ```
-The runnable jar will be in the directory /target
+The runnable jar will be in the directory `/target`
 
 # Features
 - Full GMB emulation
@@ -21,6 +21,20 @@ The runnable jar will be in the directory /target
 - Cartridge mappers MBC1, MBC3, and MBC5
 - Semi implemented serial cable
 - GUI and file opener
+
+# Joypad
+| Original | Keyboard |
+|----------|---------------------|
+| Down     |  Down Key           |
+| Up       | Up Key              |
+| Left     | Left Key            |
+| Right    | Right Key           |
+| Start    | Z                   |
+| Select   | X                   |
+| B        | A                   |
+| A        | S                   |
+| L        | Start, Select, B, A | 
+
 
 # Todo
 - Implement sound
