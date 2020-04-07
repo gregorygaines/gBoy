@@ -53,7 +53,7 @@ The runnable jar will be in the directory `/target`
 ![gBoy Running](docs/gb9.PNG)
 
 # Resources
-- Z80 Documents
+- https://www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080&extn=.pdf - Z80 CPU Manual
 - http://pastraiser.com/cpu/gameboy/gameboy_opcodes.html - GameBoy Opcode Documentation
 - http://www.myquest.nl/z80undocumented/z80cpu_um.pdf - Z80 Documentation
 - http://gameboy.mongenel.com/dmg/opcodes.html - GameBoy Opcode Documentation
