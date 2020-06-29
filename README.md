@@ -7,14 +7,14 @@ a computer system in PURE CODE.
 
 ![gBoy Running](docs/gb1.PNG)
 
-# Building and running
+# Building and running :hammer:
 The emulator is built with the maven command:
 ```
 mvn clean compile package
 ```
 The runnable jar will be in the directory `/target`
 
-# Features
+# Features :thumbsup:
 - Full GMB emulation
 - Fully implemented Z80 instruction set
 - Fully implemented GMB LCD
@@ -22,7 +22,7 @@ The runnable jar will be in the directory `/target`
 - Semi implemented serial cable
 - GUI and file opener
 
-# Joypad
+# Joypad :video_game:
 | Original | Keyboard |
 |----------|---------------------|
 | Down     |  Down Key           |
@@ -36,14 +36,14 @@ The runnable jar will be in the directory `/target`
 | L        | Start, Select, B, A | 
 
 
-# Todo
+# Todo :date:
 - Implement sound
 - Check CPU cycle accuracy
 - Implement all cartridge save mappers
 - Fix game edge cases
 - Implement CGB
 
-# Screenshots
+# Screenshots :camera:
 ![gBoy Running](docs/gb2.PNG)
 ![gBoy Running](docs/gb3.PNG)
 ![gBoy Running](docs/gb5.PNG)
@@ -52,7 +52,7 @@ The runnable jar will be in the directory `/target`
 ![gBoy Running](docs/gb8.PNG)
 ![gBoy Running](docs/gb9.PNG)
 
-# Resources
+# Resources :book:
 - https://www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080&extn=.pdf - Z80 CPU Manual
 - http://pastraiser.com/cpu/gameboy/gameboy_opcodes.html - GameBoy Opcode Documentation
 - http://www.myquest.nl/z80undocumented/z80cpu_um.pdf - Z80 Documentation
