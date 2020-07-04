@@ -85,7 +85,7 @@ public class Gameboy {
   }
 
   public void savRam() {
-    if (!memory.getCartridge().batteryLoaded()) {
+    if (memory.getCartridge() == null || !memory.getCartridge().batteryLoaded()) {
       return;
     }
 

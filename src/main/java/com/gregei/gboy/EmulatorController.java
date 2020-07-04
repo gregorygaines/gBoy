@@ -39,8 +39,9 @@ public class EmulatorController {
       public void handle(ActionEvent event) {
         gameboy.setCpuRunning(false);
         File file = mainFrame.getFileChooser().showOpenDialog(primaryStage);
+
         if (file == null) {
-          gameboy.setCpuRunning(true);
+          //gameboy.setCpuRunning(true);
           return;
         }
 
@@ -178,9 +179,9 @@ public class EmulatorController {
     //Cartridge cartridge = new Cartridge("bgbtest.gb");
     //Cartridge cartridge = new Cartridge("instr_timing.gb");
 
-    Cartridge cartridge = new Cartridge("Super Mario Land (World).gb");
+   // Cartridge cartridge = new Cartridge("Super Mario Land (World).gb");
 
-    gameboy.loadGame(cartridge);
+  //  gameboy.loadGame(cartridge);
 
     start();
   }

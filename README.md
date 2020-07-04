@@ -10,11 +10,16 @@ a computer system in PURE CODE.
 ![gBoy Running](docs/gb1.PNG)
 
 # Building and running :hammer:
-The emulator is built with the maven command:
+Build with maven command:
 ```
 mvn clean compile package
 ```
 The runnable jar will be in the directory `/target`
+
+Ran by double clicking jar or with command:
+```
+java -jar gboy-1.0-SNAPSHOT.jar
+```
 
 # Features :thumbsup:
 - Full GMB emulation
