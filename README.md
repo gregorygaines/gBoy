@@ -16,7 +16,7 @@ mvn clean compile package
 ```
 The runnable jar will be in the directory `/target`
 
-Ran by double-clicking jar or with command:
+Ran by double-clicking or with command:
 ```
 java -jar gboy-1.0-SNAPSHOT.jar
 ```
