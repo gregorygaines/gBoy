@@ -2,10 +2,8 @@
 
 [![Build Status](https://api.travis-ci.org/gregei/gBoy.svg?branch=master&status=passed)](https://travis-ci.org/gregei/gBoy)
 
-Gameboy emulator written in native Java, built using maven. The goal was
-to test my reverse engineering skills and programming abilities to see
-if I can preform one of the hardest software engineering task ever, make
-a computer system in PURE CODE.
+Gameboy emulator written in native Java, built using maven.
+The goal was to test my reverse engineering skills, software engineering skills, and to push Java.
 
 ![gBoy Running](docs/gb1.PNG)
 
